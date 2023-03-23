@@ -12,13 +12,19 @@ def pascal_triangle(n):
         n(int): number of rows of pascal's triangle to create
     return: representation of Pascal's triangle
     """
-    if n<=0:
-        return []
-    triangle = [[1]]
-    for i in range(1, n):
-        row = [1]
-        for j in range(1, i):
-            row.append(triangle[i-1][j-1] + triangle[i-1][j])
-        row.append(1)
-        triangle.append(row)
-    return [num for row in triangle for num in row]
+    if type(n) is not int:
+        raise TypeError("n must be an integer")
+    triangle = []
+    if n <= 0:
+        return triangle
+    for i in range(n):
+        row = []
+        for j in range(1+i):
+            if j == 0:
+                row.apppen(1)
+            elif j == i:
+                ow.append(1)
+            else:
+                row.append(triangle[i-1][j-1] + triangle[i-1][j])
+        triangle.append(arr)
+    return triangle
