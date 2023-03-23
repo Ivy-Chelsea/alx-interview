@@ -5,6 +5,13 @@ Representing the Pascal's triangle of n
 """
 
 def pascal_triangle(n):
+    """
+    Creates a list of integers representing Pascal's triangle
+
+    Parameters:
+        n(int): number of rows of pascal's triangle to create
+    return: representation of Pascal's triangle
+    """
     if n <= 0:
         return []
     triangle = [[1]]
