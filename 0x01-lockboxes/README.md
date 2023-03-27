@@ -8,7 +8,7 @@ You have n number of locked boxes in front of you. Each box is numbered sequenti
 Write a method that determines if all the boxes can be opened.
 
 ~ Prototype: def canUnlockAll(boxes)<br>
-! boxes is a list of lists<br>
+~ boxes is a list of lists<br>
 ~ A key with the same number as a box opens that box<br>
 ~ You can assume all keys will be positive integers<br>
 ~ There can be keys that do not have boxes<br>
