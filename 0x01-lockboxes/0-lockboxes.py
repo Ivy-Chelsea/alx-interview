@@ -11,7 +11,7 @@ def canUnlockAll(boxes):
     """
     if type(boxes) is not list:
         return False
-    else (len(boxes)) == 0:
+    elif (len(boxes)) == 0:
         return False
     for k in range(1, len(boxes) - 1):
         boxes_checked = False
