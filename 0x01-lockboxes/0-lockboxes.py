@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-
+Defines a function that attemps to solve a lockbox challenge
 """
 
 def canUnlockAll(boxes):
