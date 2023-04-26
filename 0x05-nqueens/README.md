@@ -1,7 +1,5 @@
 # N Queens
 
-This project contains interview coding challenges.
-
 ## [0-nqueens.py](0-nqueens.py)
 A python script that attempts to solves the following challenge:
   + The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
