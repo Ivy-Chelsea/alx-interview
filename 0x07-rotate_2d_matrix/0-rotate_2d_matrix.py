@@ -19,8 +19,8 @@ def rotate_2d_matrix(matrix):
     if not all(map(lambda x: len(x) == cols, matrix)):
         return
     q, t = 0, rows - 1
-    for l in range(rows * cols):
-        if l % rows == 0:
+    for w in range(rows * cols):
+        if w % rows == 0:
             matrix.append([])
         if t == -1:
             t = rows - 1
