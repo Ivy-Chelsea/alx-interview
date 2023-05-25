@@ -1,7 +1,7 @@
 # [0-island_perimeter.py](./0-island_perimeter.py)
 
 ~ A python script that attempts to solve the following puzzle:<br>
-~ Create a function def island_perimeter(grid): that returns the perimeter of the island described in grid:
+~ Create a function ***def island_perimeter(grid)***: that returns the perimeter of the island described in grid:
 
 ~ grid is a list of list of integers:<br>
 ~ 0 represents water<br>
