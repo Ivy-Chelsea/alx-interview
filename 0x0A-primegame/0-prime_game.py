@@ -8,9 +8,9 @@ def isWinner(x, nums):
     """
     Function that determines winner of a prime game session with x rounds
     """
-    if x < 1or not nums:
+    if x < 1 or not nums:
         return None
-    marias_wins, bens_wins = 0,0
+    marias_wins, bens_wins = 0, 0
 
     n = max(nums)
     primes = [True for _ in range(1, n + 1, 1)]
